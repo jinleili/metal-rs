@@ -460,6 +460,7 @@ mod capturemanager;
 mod commandbuffer;
 mod commandqueue;
 mod constants;
+mod countersamplebuffer;
 mod depthstencil;
 mod device;
 mod drawable;
@@ -486,6 +487,7 @@ pub use {
     capturemanager::*,
     commandbuffer::*,
     commandqueue::*,
+    countersamplebuffer::*,
     constants::*,
     depthstencil::*,
     device::*,
