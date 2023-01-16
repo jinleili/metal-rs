@@ -345,4 +345,14 @@ impl TextureRef {
                                                      slices:slices]
         }
     }
+
+    pub fn is_null(&self) -> bool {
+        use foreign_types::ForeignTypeRef;
+
+        if self.as_ptr().is_null() {
+            true
+        } else {
+            false
+        }
+    }
 }
